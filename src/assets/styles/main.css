@@ -1,0 +1,61 @@
+@import './base.css';
+
+.wrapper {
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn {
+  display: inline-flex;
+  padding: 15px 30px;
+  font: inherit;
+  color: var(--color-button-text);
+  background-color: var(--color-button-background);
+  border: 1px solid var(--color-button-border);
+  border-radius: 50px;
+}
+
+.btn--reverse {
+  color: var(--color-button-text-reverse);
+  background-color: var(--color-button-background-reverse);
+}
+
+.btn--with-arrow {
+  gap: 10px;
+  align-items: center;
+  padding: 5px 5px 5px 20px;
+  line-height: 0;
+}
+
+.btn--with-arrow i {
+  font-size: 45px;
+  transform: scale(10%);
+  transition: transform 0.3s;
+}
+
+.btn--with-arrow:hover i {
+  transform: scale(100%);
+}
+
+.up-btn {
+  display: grid;
+  gap: 8px;
+  justify-items: center;
+  font: inherit;
+  font-size: 18px;
+  color: var(--color-text);
+  border: none;
+  background: none;
+}
+
+.up-btn i {
+  font-size: 25px;
+  transition: transform 0.3s;
+}
+
+.up-btn:hover i {
+  transform: translateY(-20%);
+}
