@@ -35,7 +35,7 @@
   line-height: 144px;
   letter-spacing: 4px;
   /* background: linear-gradient(-45deg, #6355a4, #6355a4, #e89a3e, #e89a3e); */
-  background: linear-gradient(-45deg, #482da9, #583AC1, #d83b8d, #C22F7B);
+  background: linear-gradient(-45deg, #482da9, #583ac1, #d83b8d, #c22f7b);
   background-size: 300%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -60,5 +60,25 @@
   align-self: end;
   margin-bottom: 38px;
   /* animation-delay: 1s; */
+}
+
+@media (max-width: 769px) {
+  .hero-screen {
+    margin-bottom: 95px;
+  }
+  .hero-screen__wrapper {
+    grid-template-columns: auto;
+  }
+  .hero-screen__title {
+    height: 130px;
+    margin-bottom: 5px;
+    font-size: 70px;
+    line-height: 62px;
+  }
+
+  .hero-screen__title-tip {
+    margin-bottom: 0;
+    font-size: 18px;
+  }
 }
 </style>

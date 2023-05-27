@@ -59,3 +59,9 @@
 .up-btn:hover i {
   transform: translateY(-20%);
 }
+
+@media (max-width: 769px) {
+  .btn--with-arrow i {
+    transform: scale(100%);
+  }
+}

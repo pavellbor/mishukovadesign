@@ -50,4 +50,19 @@ const scrollTop = () => {
   right: 20px;
   cursor: pointer;
 }
+
+@media (max-width: 769px) {
+  .contacts {
+    padding-top: 122px;
+  }
+
+  .contacts__title {
+    font-size: 40px;
+    line-height: normal;
+  }
+
+  .contacts__up-btn {
+    display: none;
+  }
+}
 </style>

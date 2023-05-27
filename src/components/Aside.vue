@@ -39,4 +39,19 @@
 .app-aside__item:hover {
   color: #d13787;
 }
+
+@media (max-width: 769px) {
+  .app-aside {
+    position: absolute;
+    top: calc(50% - 61px);
+    background-color: var(--color-aside-background);
+    color: #d83b8d;
+    border: none;
+  }
+
+  .app-aside__list {
+    gap: 30px;
+    padding: 15px 10px;
+  }
+}
 </style>

@@ -128,4 +128,34 @@
 .projects__item-hover:hover {
   opacity: 1;
 }
+
+@media (max-width: 769px) {
+  .projects {
+    padding-top: 125px;
+    padding-bottom: 62px;
+  }
+
+  .projects__title {
+    margin-bottom: 40px;
+    font-size: 50px;
+  }
+
+  .projects__subtitle {
+    font-size: 30px;
+  }
+
+  .projects__groups {
+    gap: 40px;
+  }
+
+  .projects__group {
+    gap: 30px;
+  }
+
+  .projects__list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
 </style>

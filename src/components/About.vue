@@ -105,4 +105,34 @@
 .about__text {
   font-size: 28px;
 }
+
+@media (max-width: 769px) {
+  .about {
+    padding-top: 125px;
+    padding-bottom: 0;
+  }
+
+  .about__content {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 60px;
+  }
+
+  .about__text-block {
+    padding: 0;
+  }
+
+  .about__title {
+    font-size: 50px;
+  }
+
+  .about__text {
+    font-size: 22px;
+  }
+
+  .about__photo-block {
+    width: 100%;
+    height: 410px;
+  }
+}
 </style>

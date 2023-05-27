@@ -35,8 +35,12 @@
   --color-button-background-reverse: var(--c-smoky-white);
   --color-button-text-reverse: var(--c-bluish-black);
   --color-text: var(--c-bluish-black);
+  --color-text-reverse: var(--c-smoky-white);
   --color-border: var(--c-silver-grey);
   --color-footer-border: rgba(0, 0, 0, 0.15);
+  --color-header-background: rgb(249 249 249 / 90%);
+  --color-aside-background: rgb(24 24 24 / 5%);
+  --color-benefits-list-text: rgb(0 0 0 / 40%);
 
   --section-gap: 160px;
 }
@@ -69,12 +73,18 @@ html {
 
 body {
   min-height: 100vh;
+  width: 100%;
   color: var(--color-text);
   background: var(--color-background);
   transition: color 0.5s, background-color 0.5s;
   line-height: 1.25;
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   font-size: 18px;
+}
+
+#app {
+  width: 100%;
+  overflow: hidden;
 }
 
 img {
@@ -110,6 +120,10 @@ a:active {
   /* --color-button-text: var(--c-bluish-black); */
   --color-button-border: var(--c-smoky-white);
   --color-text: var(--c-smoky-white);
+  --color-text-reverse: var(--c-bluish-black);
   --color-border: var(--c-silver-grey);
   --color-footer-border: rgba(255, 255, 255, 0.15);
+  --color-header-background: rgb(24 24 24 / 90%);
+  --color-aside-background: rgb(255 255 255 / 10%);
+  --color-benefits-list-text: rgb(255 255 255 / 50%);
 }

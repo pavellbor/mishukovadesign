@@ -19,7 +19,7 @@
           <li class="benefits__item">#User Stories</li>
           <li class="benefits__item">#User Stories, JTBD</li>
           <li class="benefits__item">#UI-kit</li>
-          <li class="benefits__item">#Адаптивный Дизайн</li>
+          <li class="benefits__item">#Адаптивный дизайн</li>
         </ul>
       </div>
     </div>
@@ -59,5 +59,29 @@
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+@media (max-width: 769px) {
+  .benefits {
+    margin-bottom: 0;
+  }
+
+  .benefits__wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;  
+  }
+
+  .benefits__list {
+    color: #C22F7B;
+    font-size: 22px;
+    color: var(--color-benefits-list-text);
+  }
+
+  .benefits__desc {
+    margin-bottom: 5px;
+    font-size: 22px;
+    padding: 0;
+  }
 }
 </style>

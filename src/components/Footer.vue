@@ -2,11 +2,27 @@
   <footer class="app-footer">
     <div class="app-footer__wrapper wrapper">
       <div class="app-footer__contact-list">
-        <a class="app-footer__contact-item" href="https://www.behance.net/nastyammi" target="_blank">Behance</a>
-        <a class="app-footer__contact-item" href="https://dribbble.com/Nastyami" target="_blank">Dribbble</a>
-        <a class="app-footer__contact-item" href="https://instagram.com/mishukova_n_?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">Instagram</a>
-        <a class="app-footer__contact-item" href="https://t.me/nastyaaami" target="_blank">Telegram</a>
-        <a class="app-footer__contact-item" href="mailto:mischukova.nastya@yandex.ru" target="_blank">Email</a>
+        <a class="app-footer__contact-item" href="https://www.behance.net/nastyammi" target="_blank"
+          >Behance</a
+        >
+        <a class="app-footer__contact-item" href="https://dribbble.com/Nastyami" target="_blank"
+          >Dribbble</a
+        >
+        <a
+          class="app-footer__contact-item"
+          href="https://instagram.com/mishukova_n_?igshid=OGQ5ZDc2ODk2ZA=="
+          target="_blank"
+          >Instagram</a
+        >
+        <a class="app-footer__contact-item" href="https://t.me/nastyaaami" target="_blank"
+          >Telegram</a
+        >
+        <a
+          class="app-footer__contact-item"
+          href="mailto:mischukova.nastya@yandex.ru"
+          target="_blank"
+          >Email</a
+        >
       </div>
     </div>
   </footer>
@@ -26,5 +42,13 @@
   display: flex;
   gap: 30px;
   justify-content: center;
+}
+
+@media (max-width: 769px) {
+  .app-footer__contact-list {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+  }
 }
 </style>
